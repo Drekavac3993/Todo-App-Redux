@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
 import tasks from './tasks';
-const rootReducer = combineReducers({ tasks });
+import filters from './filters';
+const rootReducer = combineReducers({ tasks, filters });
 
 export default rootReducer;
